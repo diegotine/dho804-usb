@@ -1,4 +1,4 @@
-# dho804-usb-cython 0.3.0 — núcleo C++ nativo
+# Rigol DHO804 Lxi via USBTMC Driver
 
 Migração do driver customizado do Rigol DHO804 para C++17, com interface Cython
 compatível com os aplicativos existentes. O transporte real não usa operações
