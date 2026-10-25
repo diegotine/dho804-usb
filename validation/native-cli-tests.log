@@ -1,0 +1,1 @@
+PASS: invalid host/port/mode/timeout rejected; idle listener SIGTERM without USB access.

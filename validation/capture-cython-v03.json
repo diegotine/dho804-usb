@@ -1,0 +1,30 @@
+{
+  "mode": "cython",
+  "command": [
+    "python3",
+    "-u",
+    "-m",
+    "dho804_usb",
+    "--serve",
+    "--port",
+    "5556"
+  ],
+  "capture": "<workspace>/captures/cython_v03_ch1_25m_20261025_022518",
+  "metadata": {
+    "complete": "true",
+    "format": "WORD_LE_U16",
+    "channel": "1",
+    "points": "25000000",
+    "windows": "1",
+    "window_points": "25000000",
+    "bytes": "50000000",
+    "idn": "RIGOL TECHNOLOGIES,DHO804,REDACTED_SERIAL,00.01.05",
+    "preamble": "1,2,25000000,1,8.000000E-10,-1.000000E-2,0.000000,6.6667E-05,0,32768",
+    "transfer_seconds": "14.980944012",
+    "client_cpu_seconds": "0.00598",
+    "client_recv_seconds": "14.980848352",
+    "save_fsync_seconds": "0.087466786"
+  },
+  "bridge_cpu_seconds": 0.28,
+  "sha256": "9ce8d3b8928f515b9d0a16d2ad3e8b5d27f88ac9359b7af54f2ea9dd6db2aeb2"
+}

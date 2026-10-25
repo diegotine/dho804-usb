@@ -1,0 +1,19 @@
+test_bridge_refuses_lan_listener (test_driver.DriverTests.test_bridge_refuses_lan_listener) ... ok
+test_bridge_reopens_descriptor_without_clear (test_driver.DriverTests.test_bridge_reopens_descriptor_without_clear) ... ok
+test_discovery_preserves_injected_backend_and_identity (test_driver.DriverTests.test_discovery_preserves_injected_backend_and_identity) ... ok
+test_fragmented_ieee_header_and_payload (test_driver.DriverTests.test_fragmented_ieee_header_and_payload) ... ok
+test_full_50mb_block_uses_bounded_usb_reads (test_driver.DriverTests.test_full_50mb_block_uses_bounded_usb_reads) ... ok
+test_invalid_native_timeout_is_rejected_before_open (test_driver.DriverTests.test_invalid_native_timeout_is_rejected_before_open) ... ok
+test_large_read_bytes_preserves_surplus_and_chunk_limit (test_driver.DriverTests.test_large_read_bytes_preserves_surplus_and_chunk_limit) ... ok
+test_loaded_module_is_native_extension (test_driver.DriverTests.test_loaded_module_is_native_extension) ... ok
+test_malformed_header_is_rejected (test_driver.DriverTests.test_malformed_header_is_rejected) ... ok
+test_native_open_error_preserves_public_exception (test_driver.DriverTests.test_native_open_error_preserves_public_exception) ... ok
+test_queries_are_serialized_across_threads (test_driver.DriverTests.test_queries_are_serialized_across_threads) ... ok
+test_query_has_one_newline_and_close_is_idempotent (test_driver.DriverTests.test_query_has_one_newline_and_close_is_idempotent) ... ok
+test_timeout_propagates_without_query_retry (test_driver.DriverTests.test_timeout_propagates_without_query_retry) ... ok
+test_truncated_payload_is_failure_without_retry_or_clear (test_driver.DriverTests.test_truncated_payload_is_failure_without_retry_or_clear) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.330s
+
+OK

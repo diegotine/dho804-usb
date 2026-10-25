@@ -1,0 +1,9 @@
+include README.md
+include setup.py
+recursive-include src *.py *.pyx
+recursive-include tests *.py
+recursive-include examples *.cpp
+
+recursive-include native *.hpp *.cpp
+include native/Makefile
+include native/README.md

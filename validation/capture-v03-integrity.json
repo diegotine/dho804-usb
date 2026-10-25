@@ -1,0 +1,16 @@
+{
+  "native": {
+    "points": 25000000,
+    "bytes": 50000000,
+    "minimum": 16990,
+    "maximum": 48354,
+    "sha256": "7c6f92ef3d6c5ff89b0b424a8035797098cbc0fd9b58dfa50dca7be3d46c2502"
+  },
+  "cython": {
+    "points": 25000000,
+    "bytes": 50000000,
+    "minimum": 17025,
+    "maximum": 48268,
+    "sha256": "9ce8d3b8928f515b9d0a16d2ad3e8b5d27f88ac9359b7af54f2ea9dd6db2aeb2"
+  }
+}

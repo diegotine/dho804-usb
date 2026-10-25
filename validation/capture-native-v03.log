@@ -1,0 +1,15 @@
+instrumento=RIGOL TECHNOLOGIES,DHO804,REDACTED_SERIAL,00.01.05
+pontos_solicitados=25000000
+pontos_por_janela=25000000
+preparacao_s=0.365751
+payload_declarado_bytes=50000000
+progresso_pontos=25000000; decorrido_s=15.731179
+pontos_recebidos=25000000
+janelas=1
+transferencia_s=15.731190
+cliente_cpu_s=0.006523
+cliente_em_recv_s=15.731081
+gravacao_fsync_s=0.087530
+total_s=16.277668
+arquivo=<workspace>/captures/native_v03_ch1_25m_20261025_022456.raw
+captura_completa=true

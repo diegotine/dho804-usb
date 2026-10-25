@@ -1,0 +1,15 @@
+instrumento=RIGOL TECHNOLOGIES,DHO804,REDACTED_SERIAL,00.01.05
+pontos_solicitados=25000000
+pontos_por_janela=25000000
+preparacao_s=0.364020
+payload_declarado_bytes=50000000
+progresso_pontos=25000000; decorrido_s=14.980937
+pontos_recebidos=25000000
+janelas=1
+transferencia_s=14.980944
+cliente_cpu_s=0.005980
+cliente_em_recv_s=14.980848
+gravacao_fsync_s=0.087467
+total_s=15.738075
+arquivo=<workspace>/captures/cython_v03_ch1_25m_20261025_022518.raw
+captura_completa=true

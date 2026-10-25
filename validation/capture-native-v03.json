@@ -1,0 +1,27 @@
+{
+  "mode": "native",
+  "command": [
+    "build/bin/dho804-usb-native",
+    "--serve",
+    "--port",
+    "5556"
+  ],
+  "capture": "<workspace>/captures/native_v03_ch1_25m_20261025_022456",
+  "metadata": {
+    "complete": "true",
+    "format": "WORD_LE_U16",
+    "channel": "1",
+    "points": "25000000",
+    "windows": "1",
+    "window_points": "25000000",
+    "bytes": "50000000",
+    "idn": "RIGOL TECHNOLOGIES,DHO804,REDACTED_SERIAL,00.01.05",
+    "preamble": "1,2,25000000,1,8.000000E-10,-1.000000E-2,0.000000,6.6667E-05,0,32768",
+    "transfer_seconds": "15.731189606",
+    "client_cpu_seconds": "0.006523",
+    "client_recv_seconds": "15.731080794",
+    "save_fsync_seconds": "0.08753024"
+  },
+  "bridge_cpu_seconds": 0.27,
+  "sha256": "7c6f92ef3d6c5ff89b0b424a8035797098cbc0fd9b58dfa50dca7be3d46c2502"
+}

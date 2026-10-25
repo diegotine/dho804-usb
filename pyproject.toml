@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=77", "Cython>=3.2,<4"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dho804-usb-cython"
+version = "0.3.0"
+description = "Driver DHO804 USBTMC/USB-LXI compilado com Cython"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+dho804-usb-cython = "dho804_usb.driver:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+dho804_usb = ["*.pyx"]

@@ -1,0 +1,41 @@
+{
+  "version": "0.3.0",
+  "python": "3.14.8 (main, Oct  1 2026, 00:00:00) [GCC 16.2.1 20260819 (Red Hat 16.2.1-2)]",
+  "cython": "3.2.4",
+  "abi": ".cpython-314-x86_64-linux-gnu.so",
+  "compiler": "g++ (GCC) 16.2.1 20260819 (Red Hat 16.2.1-2)",
+  "kernel": "7.2.11-200.fc44.x86_64",
+  "dependency_packages": [
+    "libasan-16.2.1-2.fc44.x86_64",
+    "libubsan-16.2.1-2.fc44.x86_64",
+    "libtsan-16.2.1-2.fc44.x86_64",
+    "cppcheck-2.22.0-1.fc44.x86_64",
+    "clang-tools-extra-22.1.8-4.fc44.x86_64"
+  ],
+  "artifacts": {
+    "native/transport.hpp": "9b69b3c6ca114a4de160c34f40e1b0faa1ac2f115a4aac1cec774b5d6c82625e",
+    "native/bridge.cpp": "136fe99140ddbc7e5a8431d4b1d54f322088c2b68eb1c3aaecd2a86876f5ebb8",
+    "src/dho804_usb/driver.pyx": "6ff243921db824492e1d2e07abdb15d600e653788ff3d6258417eee829023076",
+    "setup.py": "34fb716856f2d57f0a13cc54055eb656780412391dc738688cabd420c5de3d55",
+    "build/bin/dho804-usb-native": "df9c851b8a9e967f34d21c4dbb169857e3c35f3bbce2331190e2aaca410bb023",
+    "src/dho804_usb/driver.cpython-314-x86_64-linux-gnu.so": "2af1cec089e177a89cb015345955e8e2fdc969feda354120485e29ddcb2b0258",
+    "dist/dho804_usb_cython-0.3.0-cp314-cp314-linux_x86_64.whl": "b62bc390ac6063d4bea92b2b2697edf8149cadc3865f8937ea48488835e475ff",
+    "dist/dho804_usb_cython-0.3.0.tar.gz": "a3766f0d90891d85e300efd9b269531399e3ce5b0d54666ea48376ab0b9c3b06",
+    "build/cython/src/dho804_usb/driver.cpp": "6fd0c99a4541e425574f98f7f3dccf56c2ff4376c14ffee59c50337940a5ee10"
+  },
+  "tests": {
+    "cython": 14,
+    "native_transport": 13,
+    "capture_client": 5,
+    "wheel_install_and_tests": "passed",
+    "sdist_rebuild": "passed",
+    "native_cli": "passed"
+  },
+  "sanitizers": {
+    "native_core": "ASan+UBSan with leak detection and separate TSan passed",
+    "extension": "ASan+UBSan (detect_leaks=0 for interpreter), separate TSan passed"
+  },
+  "static_analysis": "cppcheck warning/performance/portability and clang-tidy selected clang-analyzer checks; no findings",
+  "jitter": "not measured",
+  "system_iowait": "not measured"
+}
